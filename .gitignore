@@ -1,5 +1,6 @@
 # Dont track content of these folders
 keys/
+data/
 
 
 # Compiled source #

@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31e611b-76f8-4a6b-963d-20a14bf27c84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twitterSentiment/textBlob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twitterSentiment/vader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AlgoTrading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgoTrading.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterSentiment/tweetsCalling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterSentiment/vader.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/vader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31e611b-76f8-4a6b-963d-20a14bf27c84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/twitterSentiment/tweepy_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitterSentiment/vader_tweepy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterSentiment/vader.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/vader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterSentiment/vaderTweepy.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/vaderTweepy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterSentiment/textBlob.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/textBlob_tweepy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterSentiment/tweepy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterSentiment/vaderTweepy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
       <recent name="$PROJECT_DIR$/data/nltk_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vaderTweepy">
+  <component name="RunManager" selected="Python.tweepy_client">
     <configuration name="lol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgoTrading" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="textBlob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="textBlob_tweepy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgoTrading" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +97,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterSentiment/textBlob.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterSentiment/textBlob_tweepy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tweepy_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoTrading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterSentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterSentiment/tweepy_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vaderTweepy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vader_tweepy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgoTrading" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterSentiment/vaderTweepy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterSentiment/vader_tweepy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,9 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vaderTweepy" />
+        <item itemvalue="Python.tweepy_client" />
+        <item itemvalue="Python.textBlob_tweepy" />
+        <item itemvalue="Python.vader_tweepy" />
         <item itemvalue="Python.vaderClass" />
-        <item itemvalue="Python.textBlob" />
         <item itemvalue="Python.lol" />
       </list>
     </recent_temporary>
@@ -192,46 +218,46 @@
       <screen x="2560" y="0" width="1080" height="1920" />
     </state>
     <state x="2883" y="717" width="424" height="484" key="FileChooserDialogImpl/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444819607" />
-    <state width="2470" height="523" key="GridCell.Tab.0.bottom" timestamp="1601448320280">
+    <state width="1224" height="440" key="GridCell.Tab.0.bottom" timestamp="1601463361073">
       <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="636" key="GridCell.Tab.0.bottom/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601446092787" />
-    <state width="2470" height="523" key="GridCell.Tab.0.bottom/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601448320280" />
-    <state width="2470" height="523" key="GridCell.Tab.0.center" timestamp="1601448320280">
+    <state width="1224" height="440" key="GridCell.Tab.0.bottom/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463361073" />
+    <state width="1224" height="440" key="GridCell.Tab.0.center" timestamp="1601463361073">
       <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="636" key="GridCell.Tab.0.center/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601446092787" />
-    <state width="2470" height="523" key="GridCell.Tab.0.center/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601448320280" />
-    <state width="2470" height="523" key="GridCell.Tab.0.left" timestamp="1601448320280">
+    <state width="1224" height="440" key="GridCell.Tab.0.center/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463361073" />
+    <state width="1224" height="440" key="GridCell.Tab.0.left" timestamp="1601463361073">
       <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="636" key="GridCell.Tab.0.left/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601446092787" />
-    <state width="2470" height="523" key="GridCell.Tab.0.left/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601448320280" />
-    <state width="2470" height="523" key="GridCell.Tab.0.right" timestamp="1601448320280">
+    <state width="1224" height="440" key="GridCell.Tab.0.left/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463361073" />
+    <state width="1224" height="440" key="GridCell.Tab.0.right" timestamp="1601463361073">
       <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="636" key="GridCell.Tab.0.right/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601446092787" />
-    <state width="2470" height="523" key="GridCell.Tab.0.right/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601448320280" />
-    <state width="1057" height="972" key="GridCell.Tab.1.bottom" timestamp="1601444913065">
-      <screen x="2560" y="0" width="1080" height="1920" />
+    <state width="1224" height="440" key="GridCell.Tab.0.right/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463361073" />
+    <state width="1224" height="689" key="GridCell.Tab.1.bottom" timestamp="1601463240515">
+      <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="972" key="GridCell.Tab.1.bottom/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444913065" />
-    <state width="2470" height="690" key="GridCell.Tab.1.bottom/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601204513045" />
-    <state width="1057" height="972" key="GridCell.Tab.1.center" timestamp="1601444913064">
-      <screen x="2560" y="0" width="1080" height="1920" />
+    <state width="1224" height="689" key="GridCell.Tab.1.bottom/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463240515" />
+    <state width="1224" height="689" key="GridCell.Tab.1.center" timestamp="1601463240515">
+      <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="972" key="GridCell.Tab.1.center/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444913064" />
-    <state width="2470" height="690" key="GridCell.Tab.1.center/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601204513045" />
-    <state width="1057" height="972" key="GridCell.Tab.1.left" timestamp="1601444913064">
-      <screen x="2560" y="0" width="1080" height="1920" />
+    <state width="1224" height="689" key="GridCell.Tab.1.center/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463240515" />
+    <state width="1224" height="689" key="GridCell.Tab.1.left" timestamp="1601463240515">
+      <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="972" key="GridCell.Tab.1.left/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444913064" />
-    <state width="2470" height="690" key="GridCell.Tab.1.left/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601204513045" />
-    <state width="1057" height="972" key="GridCell.Tab.1.right" timestamp="1601444913064">
-      <screen x="2560" y="0" width="1080" height="1920" />
+    <state width="1224" height="689" key="GridCell.Tab.1.left/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463240515" />
+    <state width="1224" height="689" key="GridCell.Tab.1.right" timestamp="1601463240515">
+      <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state width="1057" height="972" key="GridCell.Tab.1.right/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444913064" />
-    <state width="2470" height="690" key="GridCell.Tab.1.right/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601204513045" />
+    <state width="1224" height="689" key="GridCell.Tab.1.right/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601463240515" />
     <state x="179" y="463" key="SettingsEditor" timestamp="1601215824142">
       <screen x="67" y="123" width="2493" height="1413" />
     </state>

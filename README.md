@@ -1,6 +1,6 @@
 # AlgoTrading
 Algorithmic-based trading summer project.
-By August Semrau Andersen.
+By augustsemrau.
 
 ## Goal
 The system seeks to be profitable.  
@@ -14,6 +14,27 @@ Various API's for attaining stock prices and related data excist, IEX seems to b
 ### Order Integration - Saxo Bank
 Using Saxo Bank OpenAPI, orders can be placed directly via the API.
 Light description follows.
+
+## Twitter Sentiment Analysis
+I am trying to use the sentiment connected with different companies on twitter
+to see if it correlates with their stock price.  
+In order to do this, I am using the following modules:  
+
+- Tweepy is the client used for retrieving tweets.
+
+- Vader is a sentiment analyzer tuned specifically for social media.
+
+- NLTK  sdsdsdsd.
+
+
+## Scripts
+
+
+1. **tweepy_class** contains the class responsible for calling tweets for sentiment analysis.
+2. **vader.py** contains the class that carries out the sentiment analysis.
+3. **vader_tweepy** carries out tweet sentiment analysis and produces statistical 
+values used for correlating with stock prices.
+4. 
 
 
 ## Strategy

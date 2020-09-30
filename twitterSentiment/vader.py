@@ -1,5 +1,5 @@
 """
-First try at sentiment analysis using NLTK
+Implementing Vader sentiment analysis for use in twitter sentiment.
 @augustsemrau
 """
 
@@ -14,19 +14,9 @@ class VaderSentiment:
 
 
     def sentiment_analyzer_scores(self, sentence):
-        score = self.analyser.polarity_scores(sentence)
-        print("Sentence: '{:}' - Scores: {}".format(sentence, str(score)))
-        return score
-
-
-
-
-
-
-
-
-
-
+        sentiment_score = self.analyser.polarity_scores(sentence)
+        # print("Sentence: '{:->40}' Scores: {}".format(sentence, str(score)))
+        return sentiment_score
 
 """
 Testing Vader workings

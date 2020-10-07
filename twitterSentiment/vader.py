@@ -18,6 +18,9 @@ class VaderSentiment:
         # print("Sentence: '{:->40}' Scores: {}".format(sentence, str(score)))
         return sentiment_score
 
+
+
+
 """
 Testing Vader workings
 """

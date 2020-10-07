@@ -44,7 +44,7 @@ class TweepyClient(object):
 
 		return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\S+)", " ", tweet).split())
 
-	def get_tweets(self, query, count=10):
+	def get_tweets(self, query, mode='search', count=5):
 		"""
 		Main function to fetch tweets and parse them using tweepy
 		"""
@@ -53,8 +53,12 @@ class TweepyClient(object):
 			# Create empty list for the queried tweets
 			tweets = []
 
-			# Call twitter api using tweepy to fetch tweets
-			fetched_tweets = self.api.search(q=query, count=count, tweet_mode="extended")
+			# Fetch tweets using tweepy in accordance to which mode is needed
+			if mode == 'search':  # Search for Que-word
+				fetched_tweets = self.api.search(q=query, count=count, tweet_mode="extended")
+
+			elif mode == 'user':  # Fetch tweets from specific user
+				fetched_tweets = self.api.user_timeline(q=query, count=count, tweet_mode="extended")
 
 			# parsing tweets one by one
 			for tweet in fetched_tweets:
@@ -67,11 +71,11 @@ class TweepyClient(object):
 				# 		tweet = tweet_info.full_text
 
 				# Checking if tweet has retweets, in which case we want to avoid replications
-				if tweet.retweet_count > 0:
+				if not tweet.retweeted and 'RT @' not in tweet.full_text:
 					if tweet.full_text not in tweets:
 						tweets.append(tweet.full_text)
-				else:
-					tweets.append(tweet.full_text)
+				# else:
+				# 	tweets.append(tweet.full_text)
 
 			# return parsed tweets
 			return tweets, fetched_tweets
@@ -87,15 +91,18 @@ if __name__ == "__main__":
 	# Initiating TweepyClient for testing
 	TweetsCaller = TweepyClient()
 
-	number_tweets = 10
 	# call 10 tweets searching for Apple
-	test_tweets, test_fetched_tweets = TweetsCaller.get_tweets(query='Joe Biden', count=number_tweets)
+	test_tweets, test_fetched_tweets = TweetsCaller.get_tweets(mode='search', query='Tesla', count=10)
+
+	# Print the fetched, full data tweets
 	for i in range(len(test_fetched_tweets)):
 		print(i)
 		print(test_fetched_tweets[i])
 		print("")
 
+	# Print only the tweet itself
+	# Here the number of tweets does not match, as retweets are removed
 	for test_tweet in test_tweets:
+		print("NEW TWEET")
 		print(test_tweet)
-		print("")
 

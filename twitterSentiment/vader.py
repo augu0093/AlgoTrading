@@ -11,12 +11,11 @@ class VaderSentiment:
     def __init__(self):
         self.analyser = SentimentIntensityAnalyzer()
 
-
-
     def sentiment_analyzer_scores(self, sentence):
         sentiment_score = self.analyser.polarity_scores(sentence)
         # print("Sentence: '{:->40}' Scores: {}".format(sentence, str(score)))
         return sentiment_score
+
 
 
 

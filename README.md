@@ -23,6 +23,7 @@ In order to do this, I am using the following modules:
 - Tweepy is the client used for retrieving tweets.
 
 - Vader is a sentiment analyzer tuned specifically for social media.
+We use it's standardises compound score, ranging from -1 to 1, negative values being negative, positive is positive. 
 
 - NLTK  sdsdsdsd.
 

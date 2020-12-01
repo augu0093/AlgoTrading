@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e31e611b-76f8-4a6b-963d-20a14bf27c84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterSentiment/vader.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/vader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterSentiment/vader_tweepy.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterSentiment/vader_tweepy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1semester/Introduktion til Programmering" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -210,10 +207,11 @@
       <screen x="67" y="123" width="2493" height="1413" />
     </state>
     <state x="1071" y="573" key="#xdebugger.evaluate/67.123.2493.1413/2560.0.1080.1920@67.123.2493.1413" timestamp="1601204453121" />
-    <state x="2883" y="717" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601444819607">
-      <screen x="2560" y="0" width="1080" height="1920" />
+    <state x="621" y="420" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605033153836">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2883" y="717" width="424" height="484" key="FileChooserDialogImpl/67.123.2493.1413/2560.0.1080.1920@2560.0.1080.1920" timestamp="1601444819607" />
+    <state x="621" y="420" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1605033153836" />
     <state width="1224" height="439" key="GridCell.Tab.0.bottom" timestamp="1602147329596">
       <screen x="67" y="187" width="2493" height="1413" />
     </state>
